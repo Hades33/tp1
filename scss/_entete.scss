@@ -62,4 +62,29 @@
     .topnav{
       width: 768px;
     }
+
+    #myLinks a {
+      font-size: 23px !important;
+  
+    }
   }
+
+  /* On screens that are 992px wide or more*/
+@media screen and (min-width: 992px) {
+  #burger {
+    display: none;
+  }
+
+  #myLinks {
+    display: block !important;
+  }
+
+  #myLinks a {
+    font-size: 30px !important;
+
+  }
+
+  .topnav {
+    width: 100%;
+  }
+}

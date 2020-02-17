@@ -54,6 +54,25 @@ i {
   .topnav {
     width: 768px;
   }
+  #myLinks a {
+    font-size: 23px !important;
+  }
+}
+
+/* On screens that are 992px wide or more*/
+@media screen and (min-width: 992px) {
+  #burger {
+    display: none;
+  }
+  #myLinks {
+    display: block !important;
+  }
+  #myLinks a {
+    font-size: 30px !important;
+  }
+  .topnav {
+    width: 100%;
+  }
 }
 
 * {
@@ -62,7 +81,7 @@ i {
 }
 
 body {
-  background-color: #040781;
+  background-color: whitesmoke;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -345,7 +364,7 @@ p {
   color: #fdf6f0;
   font-size: 6em;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   text-shadow: 0.08em 0em #007eff;
 }
 
