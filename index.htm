@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+    
+
+</head>
+
+<body>
+    <!-- Simulate a smartphone / tablet look -->
+    <div class="mobile-container">
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#home" class="active"><img src="media/lion.png" alt="lion"></a>
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <!-- <a href="#about">About</a> -->
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+    <header>
+            <div id="matrix">
+                    <div id="first">Lions</div>
+                    <div id="second">D'anjou</div>
+                  </div>
+        <!-- <h1>Denis Stathatos</h1>
+        <h2>Session Hiver 2020</h2>
+        <h3>Collège de Maisonneuve</h3> -->
+    </header>
+
+    <section id='horaire'>
+
+        <div>
+            <h2>Lun</h2>
+        </div>
+        <div>
+            <h2>Mar</h2>
+        </div>
+        <div>
+            <h2>Mer</h2>
+        </div>
+        <div>
+            <h2>Jeu</h2>
+        </div>
+        <div>
+            <h2>Ven</h2>
+        </div>
+        <div>8h</div>
+        <div>12h</div>
+        <div>13h</div>
+        <div>14h</div>
+        <div>18h</div>
+        <div class='colonne_heure'></div>
+        <div class='lundi veille'>
+            <p>Lions</p>
+            <p>VS</p>
+            <p>Montréal Canadiens</p>
+        </div>
+
+        <div class="mardi_vide">
+
+        </div>
+
+        <div class='mardi projet'>
+            <p>Lions</p>
+            <p>VS</p>
+            <p>Dallas Stars</p>
+        </div>
+        <div class='hockey_mardi hockey'>
+            <div><h2>Réunion</h2></div>
+        </div>
+        <div class='mercredi creation'>
+            <p>Pratique</p>
+        </div>
+        <!-- <div class='mercredi_3 stage'>
+            <p>stage en millieu de travail</p>
+        </div> -->
+        <div class='mercredi_2 projet'>
+            <p>Lions</p>
+            <p>VS</p>
+            <p>Boston</p>
+        </div>
+        <div class="jeudi_vide">
+
+        </div>
+
+
+        <div class='vendredi veille'>
+            <p>Programmation et veille </p>
+            <p>582-640-MA Th.</p>
+            <p>gr. 00001</p>
+            <p>Local B1153</p>
+
+        </div>
+
+        <div class='vendredi2 creation'>
+            <p>Création vidéo III </p>
+            <p>582-640-MA Th.</p>
+            <p>gr. 00001</p>
+            <p>Local B1153</p>
+
+        </div>
+
+
+
+    </main>
+    <!-- End smartphone / tablet look -->
+    </div>
+    <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+
+            </script>
+</body>
+
+</html>
