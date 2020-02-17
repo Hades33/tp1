@@ -46,7 +46,7 @@ i {
 }
 
 body {
-  background-color: lightskyblue;
+  background-color: #040781;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -329,11 +329,11 @@ p {
   font-size: 6em;
   font-weight: bold;
   text-align: left;
-  text-shadow: 0.08em 0em blue;
+  text-shadow: 0.08em 0em #007eff;
 }
 
 #matrix {
-  color: lightblue;
+  color: blue;
 }
 
 @media only screen and (max-width: 600px) {
@@ -356,5 +356,17 @@ p {
   #horaire div p:nth-child(1) {
     font-size: 1.2em;
   }
+}
+
+#pied-page {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  background-color: #333;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
