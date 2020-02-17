@@ -376,6 +376,14 @@ p {
   text-align: center;
 }
 
+#horaire div.colonne_heure {
+  background-color: transparent;
+}
+
+.heure {
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   #horaire {
     display: -ms-grid;
@@ -396,12 +404,6 @@ p {
   }
   #horaire div p:nth-child(1) {
     font-size: 1.2em;
-  }
-  #horaire div.colonne_heure {
-    background-color: transparent;
-  }
-  .heure {
-    color: white;
   }
 }
 
