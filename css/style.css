@@ -337,6 +337,29 @@ p {
   color: blue;
 }
 
+#legend1 {
+  color: #aae8a8;
+}
+
+#legend2 {
+  color: #b3e3e1;
+}
+
+#legend3 {
+  color: #75ebd7;
+}
+
+#legend4 {
+  color: red;
+}
+
+#slogan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
   #horaire {
     display: -ms-grid;
@@ -371,10 +394,9 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
   background-color: #333;
-  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -249,6 +249,33 @@ p {
       color: blue;
   }
 
+  #laLegend {
+    //   width: 150px;
+    //   text-align: start;
+  }
+
+  #legend1 {
+      color: #aae8a8;
+  }
+
+  #legend2 {
+      color: #b3e3e1;
+  }
+
+  #legend3 {
+    color: #75ebd7;
+  }
+
+  #legend4 {
+      color: red;
+  }
+
+  #slogan {
+      display: flex;
+    //   justify-content: start;
+      text-align: center
+  }
+
 @media only screen and (max-width: 600px){
 
     #horaire {
