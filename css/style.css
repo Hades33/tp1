@@ -53,6 +53,7 @@ body {
 h1,
 h2,
 #horaire div p:nth-child(1) {
+  color: white;
   font-weight: bold;
   text-shadow: 5px 3px 5px #9cc4ca;
   margin: 5px;
@@ -348,6 +349,7 @@ p {
   h1,
   h2,
   #horaire div p:nth-child(1) {
+    color: white;
     font-weight: bold;
     text-shadow: 5px 3px 5px #9cc4ca;
     margin: 5px;
@@ -355,6 +357,12 @@ p {
   }
   #horaire div p:nth-child(1) {
     font-size: 1.2em;
+  }
+  #horaire div.colonne_heure {
+    background-color: transparent;
+  }
+  .heure {
+    color: white;
   }
 }
 
