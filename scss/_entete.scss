@@ -1,12 +1,5 @@
 // ************************************************************* menu burger***********************
-.mobile-container {
-    max-width: 480px;
-    margin: auto;
-    // background-color: #555;
-    // height: 500px;
-    // color: white;
-    border-radius: 10px;
-  }
+
   
   .topnav {
     overflow: hidden;
@@ -43,3 +36,55 @@
   i {
       padding-top: 10px;    
   }
+
+  @media only screen and (max-width: 420px) {
+    .topnav {
+      // position: fixed;
+      top: 0;
+      left: 0;
+      width: 375px;
+    }
+    .mobile-container {
+      max-width: 480px;
+      margin: auto;
+      // background-color: #555;
+      // height: 500px;
+      // color: white;
+      border-radius: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    body {
+      left: 0;
+    }
+
+    .topnav{
+      width: 768px;
+    }
+
+    #myLinks a {
+      font-size: 23px !important;
+  
+    }
+  }
+
+  /* On screens that are 992px wide or more*/
+@media screen and (min-width: 992px) {
+  #burger {
+    display: none;
+  }
+
+  #myLinks {
+    display: block !important;
+  }
+
+  #myLinks a {
+    font-size: 30px !important;
+
+  }
+
+  .topnav {
+    width: 100%;
+  }
+}

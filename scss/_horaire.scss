@@ -4,13 +4,14 @@
 }
 
 body {
-    background-color: lightskyblue;
+    background-color: whitesmoke;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1,
 h2,
 #horaire div p:nth-child(1) {
+    color: white;
     font-weight: bold;
     text-shadow: 5px 3px 5px rgb(156, 196, 202);
     margin: 5px;
@@ -33,10 +34,6 @@ h3,p {
 a {
     text-decoration: none;
 }
-
-
-
-
 
 p {
     margin: 0;
@@ -240,13 +237,48 @@ p {
     color:#fdf6f0;
     font-size:6em;
     font-weight:bold;
-    text-align:left;
-    text-shadow:0.08em 0em blue;
+    text-align:center;
+    text-shadow:0.08em 0em #007eff;
   }
 
   #matrix  {
-      color:lightblue;
+      color: blue;
   }
+
+//   #laLegend {
+//       width: 150px;
+//       text-align: start;
+//   }
+
+  #legend1 {
+      color: #aae8a8;
+  }
+
+  #legend2 {
+      color: #b3e3e1;
+  }
+
+  #legend3 {
+    color: #75ebd7;
+  }
+
+  #legend4 {
+      color: red;
+  }
+
+  #slogan {
+      display: flex;
+    //   justify-content: start;
+      text-align: center
+  }
+
+  #horaire div.colonne_heure {
+    background-color: transparent;  
+}
+
+.heure {
+    color: white;
+}
 
 @media only screen and (max-width: 600px){
 
@@ -260,6 +292,7 @@ p {
 h1,
 h2,
 #horaire div p:nth-child(1) {
+    color: white;
     font-weight: bold;
     text-shadow: 5px 3px 5px rgb(156, 196, 202);
     margin: 5px;
